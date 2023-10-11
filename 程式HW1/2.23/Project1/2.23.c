@@ -5,6 +5,7 @@ int main()
 {
 	int a, b, c;
 	int max, min;
+	printf("請輸入三個數字來判斷他們的大小：");
 	scanf("%d %d %d", &a, &b, &c);
 	if (a >= b && a >= c)
 	{
